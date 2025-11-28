@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Xsl;
+
+namespace labbproject2
+{
+    public class HtmlTransformer
+    {
+        public void Transform(string xmlPath, string xslPath, string outputPath)
+        {
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+
+            var xsl = new XslCompiledTransform();
+            xsl.Load(xslPath);
+            xsl.Transform(xmlPath, outputPath);
+        }
+    }
+}

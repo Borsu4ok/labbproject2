@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Library>
+	<Book>
+		<Author>Shevchenko T.G.</Author>
+		<Title>Kobzar</Title>
+		<Abstract>Collection of poetic works.</Abstract>
+		<Category>Poetry</Category>
+		<Reader>
+			<Name>Ivanov I.I.</Name>
+			<Faculty>CS</Faculty>
+			<Department>Systems Engineering</Department>
+		</Reader>
+	</Book>
+	<Book>
+		<Author>Knuth D.E.</Author>
+		<Title>The Art of Computer Programming</Title>
+		<Abstract>Comprehensive monograph on algorithms.</Abstract>
+		<Category>Computer Science</Category>
+		<Reader>
+			<Name>Petrov P.P.</Name>
+			<Faculty>Math</Faculty>
+			<Department>Applied Math</Department>
+		</Reader>
+	</Book>
+	<Book>
+		<Author>Martin R.C.</Author>
+		<Title>Clean Code</Title>
+		<Abstract>A Handbook of Agile Software Craftsmanship.</Abstract>
+		<Category>Software Engineering</Category>
+		<Reader>
+			<Name>Sidorov S.S.</Name>
+			<Faculty>CS</Faculty>
+			<Department>Software Engineering</Department>
+		</Reader>
+	</Book>
+</Library>
